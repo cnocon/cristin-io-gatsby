@@ -1,0 +1,369 @@
+
+:root .has-pale-pink-background-color {
+	background-color: #f78da7
+}
+
+:root .has-vivid-red-background-color {
+	background-color: #cf2e2e
+}
+
+:root .has-luminous-vivid-orange-background-color {
+	background-color: #ff6900
+}
+
+:root .has-luminous-vivid-amber-background-color {
+	background-color: #fcb900
+}
+
+:root .has-light-green-cyan-background-color {
+	background-color: #7bdcb5
+}
+
+:root .has-vivid-green-cyan-background-color {
+	background-color: #00d084
+}
+
+:root .has-pale-cyan-blue-background-color {
+	background-color: #8ed1fc
+}
+
+:root .has-vivid-cyan-blue-background-color {
+	background-color: #0693e3
+}
+
+:root .has-vivid-purple-background-color {
+	background-color: #9b51e0
+}
+
+:root .has-very-light-gray-background-color {
+	background-color: #eee
+}
+
+:root .has-cyan-bluish-gray-background-color {
+	background-color: #abb8c3
+}
+
+:root .has-very-dark-gray-background-color {
+	background-color: #313131
+}
+
+:root .has-pale-pink-color {
+	color: #f78da7
+}
+
+:root .has-vivid-red-color {
+	color: #cf2e2e
+}
+
+:root .has-luminous-vivid-orange-color {
+	color: #ff6900
+}
+
+:root .has-luminous-vivid-amber-color {
+	color: #fcb900
+}
+
+:root .has-light-green-cyan-color {
+	color: #7bdcb5
+}
+
+:root .has-vivid-green-cyan-color {
+	color: #00d084
+}
+
+:root .has-pale-cyan-blue-color {
+	color: #8ed1fc
+}
+
+:root .has-vivid-cyan-blue-color {
+	color: #0693e3
+}
+
+:root .has-vivid-purple-color {
+	color: #9b51e0
+}
+
+:root .has-very-light-gray-color {
+	color: #eee
+}
+
+:root .has-cyan-bluish-gray-color {
+	color: #abb8c3
+}
+
+:root .has-very-dark-gray-color {
+	color: #313131
+}
+
+:root .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+	background: linear-gradient(135deg,#0693e3,#9b51e0)
+}
+
+:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+	background: linear-gradient(135deg,#00d084,#0693e3)
+}
+
+:root .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+	background: linear-gradient(135deg,#7adcb4,#00d082)
+}
+
+:root .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+	background: linear-gradient(135deg,#fcb900,#ff6900)
+}
+
+:root .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+	background: linear-gradient(135deg,#ff6900,#cf2e2e)
+}
+
+:root .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+	background: linear-gradient(135deg,#eee,#a9b8c3)
+}
+
+:root .has-cool-to-warm-spectrum-gradient-background {
+	background: linear-gradient(135deg,#4aeadc,#9778d1 20%,#cf2aba 40%,#ee2c82 60%,#fb6962 80%,#fef84c)
+}
+
+:root .has-blush-light-purple-gradient-background {
+	background: linear-gradient(135deg,#ffceec,#9896f0)
+}
+
+:root .has-blush-bordeaux-gradient-background {
+	background: linear-gradient(135deg,#fecda5,#fe2d2d 50%,#6b003e)
+}
+
+:root .has-purple-crush-gradient-background {
+	background: linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)
+}
+
+:root .has-luminous-dusk-gradient-background {
+	background: linear-gradient(135deg,#ffcb70,#c751c0 50%,#4158d0)
+}
+
+:root .has-hazy-dawn-gradient-background {
+	background: linear-gradient(135deg,#faaca8,#dad0ec)
+}
+
+:root .has-pale-ocean-gradient-background {
+	background: linear-gradient(135deg,#fff5cb,#b6e3d4 50%,#33a7b5)
+}
+
+:root .has-electric-grass-gradient-background {
+	background: linear-gradient(135deg,#caf880,#71ce7e)
+}
+
+:root .has-subdued-olive-gradient-background {
+	background: linear-gradient(135deg,#fafae1,#67a671)
+}
+
+:root .has-atomic-cream-gradient-background {
+	background: linear-gradient(135deg,#fdd79a,#004a59)
+}
+
+:root .has-nightshade-gradient-background {
+	background: linear-gradient(135deg,#330968,#31cdcf)
+}
+
+:root .has-midnight-gradient-background {
+	background: linear-gradient(135deg,#020381,#2874fc)
+}
+ 
+  /* COLOR HELPER CLASSES */
+  .text-shadow-purple {
+    text-shadow: 1px 2px 1px ${Theme.colors.accents.purple};
+  }
+
+  .text-shadow-red {
+    text-shadow: 1px 2px 1px ${Theme.colors.accents.background.red};
+  }
+
+  .text-shadow-yellow {
+    text-shadow: 1px 2px 1px ${Theme.colors.accents.background.yellow};
+  }
+
+  .text-shadow-blue {
+    text-shadow: 1px 2px 1px ${Theme.colors.accents.blue};
+  }
+  
+  .text-shadow-green {
+    text-shadow: 1px 2px 1px ${Theme.colors.accents.background.green};
+  }
+
+  .color-purple {
+    color: ${Theme.colors.accents.text.purple};
+  }
+
+  .color-red {
+    color: ${Theme.colors.accents.text.red};
+  }
+
+  .color-yellow {
+    color: ${Theme.colors.accents.text.yellow};
+  }
+
+  .color-blue {
+    color: ${Theme.colors.accents.text.blue};
+  }
+  
+  .color-green {
+    color: ${Theme.colors.accents.text.green};
+  }
+
+  .background-color-purple {
+    padding: 1px 3px;
+    border-radius: 1px;
+    background-color: ${Theme.colors.accents.background.purple};
+  }
+
+  .background-color-red {
+    padding: 1px 3px;
+    border-radius: 1px;
+    background-color: ${Theme.colors.accents.background.red};
+  }
+
+  .background-color-yellow {
+    padding: 1px 3px;
+    border-radius: 1px;
+    background-color: ${Theme.colors.accents.background.yellow};
+  }
+
+  .background-color-blue {
+    padding: 1px 3px;
+    border-radius: 1px;
+    background-color: ${Theme.colors.accents.background.blue};
+  }
+  
+  .background-color-green {
+    padding: 1px 3px;
+    border-radius: 1px;
+    background-color: ${Theme.colors.accents.background.green};
+  }
+
+  .box-shadow-purple {
+    padding-bottom: 1px;
+    box-shadow: 0 3px 0 ${Theme.colors.accents.purple};
+    transition: all .4s;
+    
+    &:hover {
+      box-shadow: 0 3px 0 ${Theme.colors.accents.text.purple};
+    }
+  }
+
+  .box-shadow-red {
+    padding-bottom: 1px;
+    box-shadow: 0 3px 0 ${Theme.colors.accents.red};
+    transition: all .4s;
+    
+    &:hover {
+      box-shadow: 0 3px 0 ${Theme.colors.accents.text.red};
+    }
+  }
+
+  .box-shadow-yellow {
+    padding-bottom: 1px;
+    box-shadow: 0 3px 0 ${Theme.colors.accents.yellow};
+    transition: all .4s;
+    
+    &:hover {
+      box-shadow: 0 3px 0 ${Theme.colors.accents.text.yellow};
+    }
+  }
+
+  .box-shadow-blue {
+    padding-bottom: 1px;
+    box-shadow: 0 3px 0 ${Theme.colors.accents.blue};
+    transition: all .4s;
+    
+    &:hover {
+      box-shadow: 0 3px 0 ${Theme.colors.accents.text.blue};
+    }
+  }
+  
+  .box-shadow-green {
+    padding-bottom: 1px;
+    box-shadow: 0 3px 0 ${Theme.colors.accents.green};
+    transition: all .4s;
+    
+    &:hover {
+      box-shadow: 0 3px 0 ${Theme.colors.accents.text.green};
+    }
+  }
+
+  .background-accent-purple {
+    background: ${Theme.colors.accents.purple};
+    color: #000;
+    border: 1px solid ${Theme.colors.accents.purple};
+  }
+  
+  .background-accent-red {
+    background: ${Theme.colors.accents.red};
+    color: #000;
+    border: 1px solid ${Theme.colors.accents.red};
+  }
+
+  .background-accent-yellow {
+    background: ${Theme.colors.accents.yellow};
+    color: #000;
+    border: 1px solid ${Theme.colors.accents.yellow};
+  }
+
+  .background-accent-blue {
+    background: ${Theme.colors.accents.blue};
+    color: #000;
+    border: 1px solid ${Theme.colors.accents.blue};
+  }
+
+  .background-accent-green {
+    background: ${Theme.colors.accents.green};
+    color: #000;
+    border: 1px solid ${Theme.colors.accents.green};
+  }
+
+  .border-accent-purple {
+    border: 2px solid ${Theme.colors.accents.background.purple};
+    padding: 1px 2px;
+    border-radius: 4px;
+    
+    &a:hover {
+      border: 2px solid ${Theme.colors.accents.text.purple};
+    }
+  }
+  
+  .border-accent-red {
+    border: 2px solid ${Theme.colors.accents.background.red};
+    padding: 1px 2px;
+    border-radius: 4px;
+    
+    &a:hover {
+      border: 2px solid ${Theme.colors.accents.text.red};
+    }
+  }
+    
+  .border-accent-yellow {
+    border: 2px solid ${Theme.colors.accents.background.yellow};
+    padding: 1px 2px;
+    border-radius: 4px;
+    
+    &a:hover {
+      border: 2px solid ${Theme.colors.accents.yellow};
+    }
+  }
+
+  .border-accent-blue {
+    border: 2px solid ${Theme.colors.accents.background.blue};
+    padding: 1px 2px;
+    border-radius: 4px;
+    
+    &a:hover {
+      border: 2px solid ${Theme.colors.accents.text.blue};
+    }
+  }
+
+  .border-accent-green {
+    border: 2px solid ${Theme.colors.accents.background.green};
+    padding: 1px 2px;
+    border-radius: 4px;
+    
+    &a:hover {
+      border: 2px solid ${Theme.colors.accents.text.green};
+    }
+  }
